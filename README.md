@@ -1,2 +1,2 @@
 # Furevery
-ya
+# Website created for Furevery, May 2017
