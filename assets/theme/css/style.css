@@ -484,7 +484,7 @@ p.lead,
     font-style: italic;
     font-weight: 400; }
     .lead a, .lead a:hover {
-      color: #FFD561;
+      color: #FFD560;
       text-decoration: none; }
   .lead h1 {
     font-size: 3rem;
@@ -508,7 +508,7 @@ p.lead,
     font-family: "Raleway";
     font-style: italic;
     padding: 10px 0 10px 20px;
-    border-left: 4px solid #c39f76;
+    border-left: 4px solid #ffd560;
     font-size: 1.09rem;
     position: relative; }
   .lead ul, .lead ol, .lead pre, .lead blockquote {
