@@ -1,3 +1,9 @@
+#app-btn {
+  display: inline-block;
+}
+.fa {
+  padding-right: 15px;
+}
 .navbar-text-size {
   font-size: 17px;
   font-family: "Raleway";
@@ -11,11 +17,13 @@
     display: block;
   }
 .google-btn {
-    padding-left: 64px;
+    padding-left: 0px;
+    width=35%;
+    height=35%;
   }
- .app-store-btn {
-    padding-right:10px;
-    padding-left: 62px;
+.app-store-btn {
+    padding-right:0px;
+    padding-left: 0px;
   }
 .bar-text {
   color: #000000;
@@ -652,7 +660,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 
 .mbr-section {
   position: relative;
-  padding-top: 120px;
+  padding-top: 0;
   padding-bottom: 120px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -662,7 +670,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   display: table;
   height: 100vh;
   padding-bottom: 0;
-  padding-top: 100px;
+  padding-top: 0;
   table-layout: fixed;
   width: 100%; }
   .mbr-section-full > .mbr-table-cell {
@@ -715,7 +723,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 .mbr-section-hero::before {
   display: none !important; }
 .-hero .mbr-section-title {
-  color: #fff;
+  color: #fff !important;
   margin-bottom: 1.6875rem; }
 .mbr-section-hero .mbr-section-lead {
   color: #fff;
@@ -728,7 +736,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 
 @media (max-width: 767px) {
   .mbr-section {
-    padding-top: 60px;
+    padding-top: 0;
     padding-bottom: 60px; }
 
   .mbr-section-full {
@@ -763,7 +771,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     margin-bottom: 0; }
 
   .mbr-section-hero .mbr-after-navbar .mbr-section {
-    padding-top: 120px; }
+    padding-top: 0; }
   .mbr-section-hero.mbr-section-with-arrow .mbr-section {
     padding-bottom: 120px; }
   .mbr-section-hero .mbr-section-title {
@@ -856,6 +864,8 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   .mbr-dog-logo {
     padding-top: 500px;
     padding-bottom: 0px;
+    width: 100%;
+    margin: auto;
   }
   .mbr-furevery {
     padding-top: 0px;
