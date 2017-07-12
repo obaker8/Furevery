@@ -859,7 +859,8 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   .mbr-dog-logo {
     padding-top: 500px;
     padding-bottom: 0px;
-    width:100%;
+    width:auto;
+    height: auto;
     margin:auto;
   }
   .mbr-furevery {
