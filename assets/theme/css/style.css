@@ -863,9 +863,11 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     height: auto;
     margin:auto;
   }
+
 @media only screen and (max-width: 768px) {
   .mbr-dog-logo {
-    padding-top: 600px;
+    width: 50%;
+    height: 50%;
   }
 }
 
