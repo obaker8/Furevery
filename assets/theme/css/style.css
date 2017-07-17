@@ -836,7 +836,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   margin: 0;
   overflow: hidden;
   position: relative;
-  width: 100%; }
+}
   .mbr-figure img, .mbr-figure iframe {
     display: block;
     width: 100%; }
@@ -857,10 +857,8 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     position: absolute; }
 
   .mbr-dog-logo {
-    padding-top: 480px;
+    padding-top: 0px;
     padding-bottom: 0px;
-    width:auto;
-    height: auto;
     margin:auto;
   }
 
