@@ -872,7 +872,9 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     padding-top: 0px;
     padding-bottom: 0px;
     vertical-align: middle;
-  }
+    display: inline;
+    overflow: hidden;
+}
 
 .mbr-map {
   height: 25rem;
