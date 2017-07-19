@@ -857,22 +857,10 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     position: absolute; }
 
   .mbr-dog-logo {
+    max-width:100%;
+    height:auto;
+    margin: auto;
     display:inline;
-    padding-top:30px;
-}
-
-  @media screen (min-width: 768px) {
-    .mbr-dog-logo {
-      height:30%;
-      width:30%;
-    }
-}
-
-  @media screen (max-width: 768px) {
-      .mbr-dog-logo {
-      height: 60%;
-      width:60%;
-  }
 }
 
   .mbr-furevery {
