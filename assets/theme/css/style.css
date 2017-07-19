@@ -857,8 +857,12 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     position: absolute; }
 
   .mbr-dog-logo {
-    max-width:342px;
     height:auto;
+}
+@media (min-width: 768px){
+  .mbr-dog-logo {
+    max-width:342px;
+  }
 }
 @media (max-width: 768px){
   .mbr-dog-logo {
