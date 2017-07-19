@@ -861,10 +861,15 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     padding-top:30px;
 }
 
+  @media screen (min-width: 768px) {
+    .mbr-dog-logo {
+      height:30%;
+      width:30%;
+    }
+}
+
   @media screen (max-width: 768px) {
       .mbr-dog-logo {
-      display:inline;
-      padding-top:30px;
       height: 60%;
       width:60%;
   }
