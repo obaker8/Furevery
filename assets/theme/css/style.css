@@ -860,6 +860,11 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     max-width:100%;
     height:auto;
 }
+@media (max-width: 768px){
+  .mbr-dog-logo {
+    width:50%;
+  }
+}
 
   .mbr-furevery {
     padding-top: 0px;
