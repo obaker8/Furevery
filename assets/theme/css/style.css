@@ -859,7 +859,16 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   .mbr-dog-logo {
     display:inline;
     padding-top:30px;
+}
+
+  @media screen (max-width: 768px) {
+      .mbr-dog-logo {
+      display:inline;
+      padding-top:30px;
+      height: 60%;
+      width:60%;
   }
+}
 
   .mbr-furevery {
     padding-top: 0px;
